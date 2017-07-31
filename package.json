@@ -1,0 +1,17 @@
+{
+  "name": "y-server-cors",
+  "version": "0.0.1",
+  "author": "SmadeyZhang",
+  "license": "MIT",
+  "description": "y-server cors plugin",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "devDependencies": {
+    "y-server": "git+https://github.com/yued-fe/y-server.git"
+  }
+}
