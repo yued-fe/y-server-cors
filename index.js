@@ -18,7 +18,6 @@ module.exports = function (options) {
    * @param {Object} app Express实例
    */
   return function (app) {
-    console.log(corsPath); // eslint-disable-line no-console
     app.all(corsPath, function (req, res, next) {
       res.header('Access-Control-Allow-Origin', '*');
       res.header('Access-Control-Allow-Headers', 'Content-Type,Content-Length, Authorization, Accept,X-Requested-With');

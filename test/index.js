@@ -4,7 +4,7 @@ const yServer = require('y-server');
 
 const cors = require('../index.js');
 
-yServer({
+yServer.run({
   plugins: [
     cors(),
     function (app) {

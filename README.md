@@ -11,10 +11,10 @@ npm install y-server-cors
 ## Usage
 
 ```javascript
-var yServer = require("y-server");
-var cors = require("y-server-cors");
+var yServer = require('y-server');
+var cors = require('y-server-cors');
 
-yServer({
+yServer.run({
   plugins: [
     cors(),
   ],
