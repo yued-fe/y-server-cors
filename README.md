@@ -1,24 +1,24 @@
-# y-server-cors
+# y-server-plugin-cors
 
-y-server-cors is a [y-server](https://github.com/yued-fe/y-server) plugin to allow cors.
+y-server-plugin-cors is a [y-server](https://github.com/yued-fe/y-server) plugin to allow cors.
 
 ## Install
 
 ```bash
-npm install y-server-cors
+npm install y-server-plugin-cors
 ```
 
 ## Usage
 
 ```javascript
-var yServer = require('y-server');
-var cors = require('y-server-cors');
+const yServer = require('y-server');
+const corsPlugin = require('y-server-plugin-cors');
 
-yServer.run({
+yServer({
   plugins: [
-    cors(),
+    corsPlugin(),
   ],
-});
+})
 ```
 
 ## Notes

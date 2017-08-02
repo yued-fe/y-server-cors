@@ -2,11 +2,11 @@
 
 const yServer = require('y-server');
 
-const cors = require('../index.js');
+const corsPlugin = require('../index.js');
 
 yServer.run({
   plugins: [
-    cors(),
+    corsPlugin(),
     function (app) {
       app.get('/', function (req, res) {
         res.send('valid');

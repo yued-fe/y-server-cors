@@ -4,7 +4,7 @@
  * y-server 跨域插件
  * @param {Object} options 配置
  * @param {Object} options.path 路径
- * @return {Function} 初始化方法
+ * @return {Function} 插件安装方法
  */
 module.exports = function (options) {
   if (!options) {
@@ -14,7 +14,7 @@ module.exports = function (options) {
   const corsPath = options.path || '*';
 
   /**
-   * 初始化方法
+   * 插件安装方法
    * @param {Object} app Express实例
    */
   return function (app) {
