@@ -16,6 +16,6 @@
     "test": "node ./test/index.js"
   },
   "devDependencies": {
-    "y-server": "git+https://github.com/yued-fe/y-server.git"
+    "y-server": "~0.0.1"
   }
 }
